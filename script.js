@@ -15,16 +15,16 @@ function calculatePercentage() {
         grade = "A";
     }
     else if (percentage >= 70) {
-        grade = "A-";
-    }
-    else if (percentage >= 60) {
         grade = "B";
     }
-    else if (percentage >= 50) {
+    else if (percentage >= 60) {
         grade = "C";
     }
-    else if (percentage >= 40) {
+    else if (percentage >= 50) {
         grade = "D";
+    }
+    else if (percentage >= 40) {
+        grade = "E";
     }
     else {
         grade = "F";
