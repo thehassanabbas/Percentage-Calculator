@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Percentage Calculator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <form onsubmit="calculatePercentage(); return false" class="form">
+    <h1 class="heading">Percentage Calculator</h1>
+    <div class="container">
+      <div class="row">
+        <label for="fname">Full Name :</label>
+        <input id="fullName" name="fname" class="input" type="text" placeholder="Enter Your Full Name" />
+      </div>
+      <div class="row">
+        <label for="totalMarks">Total Marks :</label>
+        <input id="totalMarks" name="totalMarks" class="input" type="text" placeholder="Enter Your Total Marks" />
+      </div>
+      <div class="row">
+        <label for="obtainedMarks">Obtained Marks :</label>
+        <input id="obtainedMarks" name="obtainedMarks" class="input" type="text"
+          placeholder="Enter Your Obtained Marks" />
+      </div>
+      <div class="row" style="margin: 0">
+        <button onclick="calculatePercentage()" class="btn-grad" type="submit">Calculate</button>
+      </div>
+      <div class="row">
+        <p id="result"></p>
+      </div>
+    </div>
+  </form>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
