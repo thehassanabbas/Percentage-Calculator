@@ -8,7 +8,7 @@ function calculatePercentage() {
 
     let grade = "";
 
-    if (percentage >= 90) {
+    if (percentage >= 91) {
         grade = "A+";
     }
     else if (percentage >= 80) {
